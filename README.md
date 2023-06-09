@@ -4,7 +4,8 @@
 <div align="center">
   <a href="https://lizhi.aliipay.xyz" target="_blank">🔗 Demo 🔗 </a>
 </div>
-
+## Code
+SolidJS + Hope UI
 
 ## 感谢
 
