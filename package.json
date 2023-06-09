@@ -1,0 +1,27 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "unocss": "^0.53.1",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@hope-ui/solid": "^0.6.7",
+    "@solidjs/router": "^0.8.2",
+    "@stitches/core": "^1.2.8",
+    "aplayer": "^1.10.1",
+    "sass": "^1.63.2",
+    "solid-js": "^1.6.10",
+    "solid-transition-group": "^0.2.2"
+  }
+}

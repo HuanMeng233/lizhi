@@ -1,0 +1,31 @@
+#index{
+
+  #content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+  
+  }
+}
+#toggleColorMode {
+  //右上角
+  position: fixed;
+  top: 0;
+  text-align: right;
+  width: 50px;
+  right: 0;
+  padding-right: 5px;
+}
+
+#github {
+  //右上角
+  position: fixed;
+  top: 0;
+  text-align: right;
+  width: 100px;
+  right: 0;
+  padding-right:50px;
+}
