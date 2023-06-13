@@ -1,34 +1,19 @@
-## Usage
+<h1 align="center">李志音乐播放</h1>
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+<div align="center">
+  <a href="https://lizhi.aliipay.xyz" target="_blank">🔗 Demo 🔗 </a>
+</div>
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Code
+SolidJS + Hope UI
 
-## Available Scripts
+## 感谢
 
-In the project directory, you can run:
+感谢音乐资源库 [nj-lizhi](https://github.com/nj-lizhi)
 
-### `npm dev` or `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 版权
 
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+版权归李志所有，资源仅从互联网搜集整理。如有侵权，联系删除。
