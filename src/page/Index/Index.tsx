@@ -6,7 +6,6 @@ import ToggerColorMode from "../../components/ToggleColorMode/ToggleColorMode";
 import "./Index.scss";
 import { AlbumList } from "../../list";
 const Index: Component = () => {
-
   return (
     <div id="index">
       <div id="main" class="p-5">

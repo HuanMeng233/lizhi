@@ -1,1 +1,1 @@
-declare module "APlayer"
+declare module "APlayer";

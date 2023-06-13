@@ -4,14 +4,13 @@ import apleyer from "APlayer";
 import "./Player.scss";
 var AP: any;
 const Player: Component = () => {
-
   onMount(() => {
-     AP = new apleyer({
+    AP = new apleyer({
       container: document.querySelector("#footer"),
       autoplay: false,
       theme: "#00c2d7",
       listFolded: true,
-      audio:  [
+      audio: [
         {
           name: "倒影",
           artist: "108个关键词",
@@ -121,109 +120,127 @@ const Player: Component = () => {
           name: "Hey Jude",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/Hey Jude.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "兰花草",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/兰花草.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "小螺号",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/小螺号.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "数鸭子",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/数鸭子.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "朋友越多越快乐",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/朋友越多越快乐.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "歌声与微笑",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/歌声与微笑.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "蜗牛与黄鹂鸟",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/蜗牛与黄鹂鸟.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "送别",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/送别.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "采蘑菇的小姑娘",
           artist: "8",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/采蘑菇的小姑娘.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
         },
         {
           name: "下雨",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/下雨.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "你的早晨",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/你的早晨.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "女神",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/女神.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "寻找",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/寻找.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "尽头",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/尽头.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "山阴路的夏天",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/山阴路的夏天.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "日",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/日.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "杭州",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/杭州.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "门",
           artist: "F",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/门.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
         },
         {
           name: "1990的春天",
@@ -397,55 +414,64 @@ const Player: Component = () => {
           name: "墙上的向日葵",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/墙上的向日葵.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "妈妈",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/妈妈.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "定西",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/定西.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "山阴路的夏天",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/山阴路的夏天.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "方式",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/方式.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "来了",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/来了.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "杭州",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/杭州.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "这个世界会好吗",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/这个世界会好吗.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "铅笔",
           artist: "io",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/铅笔.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/io/cover.png",
         },
         {
           name: "他们",
@@ -1039,73 +1065,85 @@ const Player: Component = () => {
           name: "和你在一起",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/和你在一起.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "回答",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/回答.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "墙上的向日葵",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/墙上的向日葵.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "大象",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/大象.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "定西",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/定西.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "尽头",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/尽头.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "序曲",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/序曲.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "春末的南方城市",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/春末的南方城市.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "杭州",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/杭州.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "铅笔",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/铅笔.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "门",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/门.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "黑色信封",
           artist: "家",
           url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/黑色信封.mp3",
-          cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
+          cover:
+            "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/家/cover.png",
         },
         {
           name: "九月",
@@ -2010,11 +2048,10 @@ const Player: Component = () => {
           cover:
             "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/零碎/cover.png",
         },
-      ]
+      ],
     });
   });
 
   return <div id="footer"></div>;
 };
-export  {Player,AP}
-
+export { Player, AP };

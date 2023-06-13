@@ -123,126 +123,144 @@ var Musics = [
     name: "Hey Jude",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/Hey Jude.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 15,
   },
   {
     name: "兰花草",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/兰花草.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 16,
   },
   {
     name: "小螺号",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/小螺号.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 17,
   },
   {
     name: "数鸭子",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/数鸭子.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 18,
   },
   {
     name: "朋友越多越快乐",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/朋友越多越快乐.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 19,
   },
   {
     name: "歌声与微笑",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/歌声与微笑.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 20,
   },
   {
     name: "蜗牛与黄鹂鸟",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/蜗牛与黄鹂鸟.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 21,
   },
   {
     name: "送别",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/送别.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 22,
   },
   {
     name: "采蘑菇的小姑娘",
     artist: "8",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/采蘑菇的小姑娘.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/8/cover.png",
     id: 23,
   },
   {
     name: "下雨",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/下雨.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 24,
   },
   {
     name: "你的早晨",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/你的早晨.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 25,
   },
   {
     name: "女神",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/女神.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 26,
   },
   {
     name: "寻找",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/寻找.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 27,
   },
   {
     name: "尽头",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/尽头.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 28,
   },
   {
     name: "山阴路的夏天",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/山阴路的夏天.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 29,
   },
   {
     name: "日",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/日.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 30,
   },
   {
     name: "杭州",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/杭州.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 31,
   },
   {
     name: "门",
     artist: "F",
     url: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/门.mp3",
-    cover: "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
+    cover:
+      "https://testingcf.jsdelivr.net/gh/nj-lizhi/song@main/audio/F/cover.png",
     id: 32,
   },
   {

@@ -1,31 +1,27 @@
-#info{
-    display: flex;
-    #coverPic{
-        #cover{
-            height: 150px;
-            width: 150px;
-            border-radius: 10px;
-    
-         
-        }
+#info {
+  display: flex;
+  #coverPic {
+    #cover {
+      height: 150px;
+      width: 150px;
+      border-radius: 10px;
     }
-    #albumText{
-        #title{
-            font-size: 25px;
-            font-weight: bold;
-            margin-top: 5px;
-            padding-left: 20px;
-        }
-        #author{
-            padding-left: 20px;
-            margin-top: 15px;
-            font-size: 20px;
-        }
-        #playAllBtn{
-            margin-left: 20px;
-            margin-top: 15px;
-
-        }
-        
+  }
+  #albumText {
+    #title {
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 5px;
+      padding-left: 20px;
     }
+    #author {
+      padding-left: 20px;
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    #playAllBtn {
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+  }
 }

@@ -13,8 +13,7 @@ const GithubBtn: Component = () => {
         class="w-10"
         colorScheme="primary"
         leftIcon={<Icon as={IconGithub} boxSize="20px" class="ml-2" />}
-     
-     />
+      />
     </div>
   );
 };

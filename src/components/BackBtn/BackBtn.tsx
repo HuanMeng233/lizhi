@@ -1,5 +1,5 @@
 import { Component } from "solid-js";
-import { Icon, Button ,Tooltip } from "@hope-ui/solid";
+import { Icon, Button, Tooltip } from "@hope-ui/solid";
 import IconBack from "../../icons/Back";
 import { useNavigate } from "@solidjs/router";
 
@@ -18,7 +18,7 @@ const BackBtn: Component = () => {
         colorScheme="primary"
         leftIcon={<Icon as={IconBack} boxSize="20px" class="ml-1" />}
       ></Button>
-    </Tooltip >
+    </Tooltip>
   );
 };
 export default BackBtn;
